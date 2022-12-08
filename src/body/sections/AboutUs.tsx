@@ -26,7 +26,7 @@ export default function AboutUs(props: AboutUsProps) {
                 Hack Cambridge! We know that you are as excited as we are about
                 the upcoming event.
                 <br></br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As the 7th season of the largest
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As the 8th season of the largest
                 student-run hackathon in Cambridge, Hack Cambridge Atlas is an
                 incredible opportunity for you to explore all possibilities in a
                 sprint-like event. Come with your team to hack
