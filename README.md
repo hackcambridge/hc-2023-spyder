@@ -1,3 +1,10 @@
+# Hack Cambridge Spyder Website 1
+
+This project is the introductory website for Hack Cambridge Spyder 2023.
+It is a pre-release page, which reveals the return of the Hack Cambridge Foundation's hackathon this year.
+It states the theme and time of the hackathon, as well as whom to contact for sponsorship.
+This project aims to familiarise with the development environment before developing the final website for the hackathon.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
