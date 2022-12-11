@@ -15,7 +15,7 @@
         align-items: center;
         h1 {
             @include industry-bold();
-            color: $blue;
+            color: $teal;
             font-size: calc(min(0.4in, 4vw));;
         }
         .MailingListForm {

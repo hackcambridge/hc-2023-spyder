@@ -1,8 +1,8 @@
 .MovingBackground {
     position: relative;
-    background: rgb(0, 0, 0);
+    background: rgb(255, 241, 225);
     /* Can change gradient here*/
-    background: linear-gradient(185deg, rgba(0,0,0,1) 0%, rgba(44,144,196,1) 25%, rgba(239,142,56,1) 75%, rgba(49,204,144,1) 100%);
+    /* background: linear-gradient(185deg, rgba(0,0,0,1) 0%, rgba(44,144,196,1) 25%, rgba(239,142,56,1) 75%, rgba(49,204,144,1) 100%); */
 }
 
 .MovingBackground::before {

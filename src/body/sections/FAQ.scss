@@ -11,9 +11,6 @@
         margin-left: -30%;
     }
     
-    .faq-col {
-    }
-    
     .faq-col-1 {
         flex: 1;
         max-width: 60%;
@@ -27,7 +24,7 @@
     .faq-col-3 {
         flex: 5;
         max-width: 80%;
-        margin-left: -40%;
+        margin-left: 20%;
         .faq-col-3-1{
             padding-left: 10%;
             & > *{
@@ -59,7 +56,7 @@
     h1 {
         @include industry-bold();
         font-size: calc(min(0.7in, 8vw));
-        color: $green;
+        color: $lavender;
         margin-left: -18%;
         z-index:1;
     }

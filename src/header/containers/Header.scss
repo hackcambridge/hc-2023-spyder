@@ -6,9 +6,9 @@ header {
     justify-content: space-around;
     padding: 10px;
     max-height: 50px;
-    background-color: none;
+    background-color: $lightorange;
 }
 
 header * {
-    color: $green;
+    color: rgb(72, 72, 77);
 }

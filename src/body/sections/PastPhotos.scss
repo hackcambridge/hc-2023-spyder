@@ -10,13 +10,13 @@
     h1 {
         @include industry-bold();
         font-size: calc(min(0.7in, 8vw));
-        color: $green;
+        color: $lavender;
         margin-left: 9%;
     }
     h2 {
         @include industry-bold();
         font-size: calc(min(0.4in, 4vw));
-        color: $green;
+        color: $teal;
         margin-top: -3%;
         margin-left: 9.3%;
     }

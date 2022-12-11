@@ -11,23 +11,21 @@
     padding: 5%;
 }
 
-.about-us-col {
-}
-
 .about-us-col-1 {
-    margin-right: 10px;
+    margin-right: 10%;
     flex: 3;
     margin-left: 5%;
     h1 {
         @include industry-bold();
         font-size: calc(min(0.7in, 8vw));
-        color: $green;
+        color: $lavender;
     }
     h2 {
         @include industry-bold();
         font-size: calc(min(0.4in, 4vw));
-        color: $green;
-        margin-top:-5%;
+        color: $teal;
+        padding-top: 1px;
+        margin-top: -3%;
         margin-left: 0.5%;
     }
     .about-us-with-dec {
@@ -37,10 +35,11 @@
             @include glassmorphism();
             border-radius: 8px;
             padding: calc(min(30px, 10%));
-            color: $white;
+            color: $red;
+            background-color: $gold;
             line-height: 150%;
             font-size: calc(min(0.5in, 2vh));
-            min-width: 50vw;
+            width: 60vw;
         }
         .about-us-dec {
             max-width: 7vw;

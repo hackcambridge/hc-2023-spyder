@@ -21,15 +21,15 @@
 #mailing-list-submit {
     flex: 1;
     height: 100%;
-    color: white;
-    background-color: $blue;
+    color: $white;
+    background-color: $teal;
     border-radius: 10%;
     border-style: none;
 }
 
 #mailing-list-submit:hover {
     background-color: rgba(255, 255, 255, 0.4);
-    color: $blue;
+    color: $teal;
     box-shadow: 2px inset;
 }
 

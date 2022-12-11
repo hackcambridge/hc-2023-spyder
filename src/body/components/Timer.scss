@@ -14,6 +14,7 @@
     border-radius: 12px;
     min-width: calc(min(1.5in, 15vh)*6);
     min-height: 10%;
+    background-color: $gold;
 }
 
 .Timer > * {
@@ -21,7 +22,7 @@
 }
 
 .Timer h1 {
-    color: $white;
+    color: $red;
     font-size: calc(min(1.5in, 15vh));
     margin-bottom: 0%;
     margin-top: 0%;
@@ -30,7 +31,7 @@
 .Timer h3 {
     margin-top: 0%;
     margin-bottom: 0%;
-    color: white;
+    color: $red;
 }
 
 @media screen and (max-width:1000px) {

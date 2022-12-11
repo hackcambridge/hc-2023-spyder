@@ -14,7 +14,7 @@ export type FooterProps = {};
 export default function Footer(props: FooterProps) {
     return <div className="Footer">
         <div className="JoinUs">
-            <a href="https://forms.gle/w6AuXp8xmVi3HPHE7"><h1>Join our mailing list!</h1></a>
+            <a href="https://forms.gle/ER9FETGS1fou3XJf9"><h1>Join our mailing list!</h1></a>
             {/* <MailingListForm /> */}
         </div>
         <div className="SocialMedia">
