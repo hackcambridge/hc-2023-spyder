@@ -40,8 +40,9 @@ export default function Landing({name, href, applicationsOpen}: LandingProps) {
                         {applicationsOpen && <a href={href} className="apply-button">Apply today!</a>}
                         {!applicationsOpen && (
                         <>
-                        <a href="/" className="apply-button apps-closed">Applications closed</a>
-                        <a href="https://forms.gle/ER9FETGS1fou3XJf9" className="apply-button apps-wl">Join Waiting List</a>
+                        {/* <a href="/" className="apply-button apps-closed">Applications closed</a> */}
+                        <a href="https://forms.gle/ER9FETGS1fou3XJf9" className="apply-button apps-closed">Join Mailing List</a>
+                        <a href="mailto://team@hackcambridge.com" className="apply-button apps-closed"> Interested in Sponsoring Us? </a>
                         </>
                         )}
                     </div>
