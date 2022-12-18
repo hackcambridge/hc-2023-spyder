@@ -24,7 +24,7 @@
     "react-alice-carousel": "^2.5.1",
     "react-collapse": "^5.1.0",
     "react-dom": "^16.0.0",
-    "react-flippy": "^1.1.0",
+    "react-flippy": "^0.1.5",
     "react-icons": "^4.2.0",
     "react-mailchimp-subscribe": "^2.1.3",
     "react-modal": "^3.14.3",
@@ -35,7 +35,7 @@
     "react-scroll-rotate": "^0.0.7",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
-    "typescript": "^4.1.0",
+    "typescript": "^3.9.10",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
