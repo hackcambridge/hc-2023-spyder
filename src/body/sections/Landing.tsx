@@ -23,14 +23,18 @@ export default function Landing({name, href, applicationsOpen}: LandingProps) {
                 <Fade left>
                     <div className="landing-col1">
                         <h1 className="landing-hc-title landing-hc-title-small">Hack Cambridge</h1>
-                        <h1 className="landing-hc-title landing-hc-title-big">Spyder</h1>
-                        <h1 className="landing-date">11-12 Mar 2023</h1>
+                        <h1 className="landing-hc-title landing-hc-title-medium">Spyder Lite</h1>
+                        <h1 className="landing-date">12 Mar 2023</h1>
                         {/* <MailingListForm /> */}
                         {/* <SponsorButton /> */}
                         <p>
-                        Cambridge's biggest student-run hackathon is back! <br></br>
-                        Our eighth hackathon will run both virtually and in-person. <br></br>
-                        We're excited to present Hack Cambridge Spyder 2023.
+                        Cambridge's biggest student-run hackathons are back! <br></br>
+                        We're excited to present Hack Cambridge Spyder Lite 2023. <br></br>
+                        This is our first of a kind introductory hackathon! <br></br>
+                        We'll be bringing together experienced hackers with <br></br>
+                        beginners to level the playing field at our main event. <br></br>
+                        Applications will be opening very soon! <br></br>
+                        Follow us on our social media accounts to receive updates.
                         </p>
                     </div>
                 </Fade>

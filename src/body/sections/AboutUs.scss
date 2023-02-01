@@ -12,13 +12,13 @@
 }
 
 .about-us-col-1 {
-    margin-right: 10%;
     flex: 3;
     margin-left: 5%;
     h1 {
         @include industry-bold();
         font-size: calc(min(0.7in, 8vw));
         color: $lavender;
+        margin-left: 0.5%;
     }
     h2 {
         @include industry-bold();
@@ -31,7 +31,7 @@
     .about-us-with-dec {
         display: flex;
         p {
-            @include open-sans();
+            @include industry-bold();
             @include glassmorphism();
             border-radius: 8px;
             padding: calc(min(30px, 10%));
@@ -39,7 +39,7 @@
             background-color: $gold;
             line-height: 150%;
             font-size: calc(min(0.5in, 2vh));
-            width: 60vw;
+            width: 78vw;
         }
         .about-us-dec {
             max-width: 7vw;

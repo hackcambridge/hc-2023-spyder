@@ -67,9 +67,9 @@
     margin-bottom: -2%;
 }
 
-.landing-col1 .landing-hc-title-big {
-    font-size: calc(min(1.5in, 15vh));
-    margin: 0%;
+.landing-col1 .landing-hc-title-medium {
+    font-size: calc(min(1.3in, 10vh));
+    margin: 4%;
 }
 
 .landing-col1 h2 {
@@ -89,6 +89,7 @@
 .landing-col1 > p {
     color: $teal;
     margin-top: 10px;
+    line-height: 150%;
     @include open-sans();
     text-align: center;
 }
