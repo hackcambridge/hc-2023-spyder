@@ -1,0 +1,13 @@
+.Logo-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.HC-logo-body {
+    height: calc(max(60vh, 350px));
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}

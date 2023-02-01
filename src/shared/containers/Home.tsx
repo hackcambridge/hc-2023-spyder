@@ -5,7 +5,7 @@ import {ParallaxProvider, useController} from 'react-scroll-parallax';
 import './Home.scss';
 import Footer from "../../footer/Footer";
 
-export type HomeProps = {} & RouteComponentProps;
+export type HomeProps = { logoPath: string; } & RouteComponentProps;
 
 const ParallaxCache = () => {
     const { parallaxController } = useController();
@@ -19,11 +19,11 @@ const ParallaxCache = () => {
     return null;
   }
   
-export default function Home(props:HomeProps) {
+export default function Home({logoPath}:HomeProps) {
     return (<div className="Home">
         <ParallaxProvider>
             <ParallaxCache />
-            <Body />
+            <Body logoPath={logoPath}/>
             <Footer />
         </ParallaxProvider>
       </div>);

@@ -2,23 +2,26 @@ import React from 'react';
 import './Landing.scss';
 import Timer from '../components/Timer';
 import Fade from 'react-reveal';
+import Logo from '../components/Logo';
 
 // Format is MM/DD/YYYY
 export const targetDate = new Date('03/10/2023');
 
 export type LandingProps = {
-    name?: string;
+    name: string;
     href: string;
+    logoPath: string;
     applicationsOpen: boolean;
 };
 
 /**
  * Landing Section
  */
-export default function Landing({name, href, applicationsOpen}: LandingProps) {
+export default function Landing({name, href, logoPath, applicationsOpen}: LandingProps) {
     // TODO: Move state up to Landing and define all the constants here
     return (
         <div className="Landing">
+            <Logo logo={logoPath}/>
             <div className={"landing-main"}>
                 <Fade left>
                     <div className="landing-col1">

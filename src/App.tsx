@@ -17,7 +17,7 @@ function App() {
       <MLHBanner />
       <Header logoPath={logo} navElements={navElements}/>
       {/* <Router> */}
-      <Home path='/'/>
+      <Home logoPath={logo} path='/'/>
       {/* </Router> */}
     </div>
   );

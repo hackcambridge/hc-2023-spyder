@@ -66,7 +66,7 @@ import mlh from '../../shared/img/sponsors/mlh-logo-color.svg';
 // import SponsorShowcase, { SponsorShowcaseInfo } from "../sections/SponsorShowcase";
 
 export type BodyProp = {
-
+    logoPath: string;
 };
 
 // This is temporary.
@@ -453,10 +453,10 @@ const committeInfo = [
 const linkToApply = '/apply';
 const applicationsOpen = false;
 
-export default function Body(props: BodyProp) {
+export default function Body({logoPath}: BodyProp) {
     return (
         <div className="Body">
-            <Landing href={linkToApply} applicationsOpen={applicationsOpen}/>
+            <Landing name='' logoPath={logoPath} href={linkToApply} applicationsOpen={applicationsOpen}/>
             {/* <Timeline timelinePhoto={timeline2}/> */}
             <AboutUs />
             <PastPhotos items={pastPhotos}/>

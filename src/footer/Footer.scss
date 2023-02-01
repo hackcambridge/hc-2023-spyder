@@ -6,9 +6,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    & > * {
-        padding-top: 5%;
-    }
     .JoinUs {
         display: flex;
         flex-direction: column;
@@ -16,10 +13,7 @@
         h1 {
             @include industry-bold();
             color: $teal;
-            font-size: calc(min(0.4in, 4vw));;
-        }
-        .MailingListForm {
-            height: 5vh;
+            font-size: calc(min(0.4in, 4vw));
         }
     }
     .SocialMedia {
