@@ -30,8 +30,6 @@ export default function AboutIntro(props: AboutIntroProps) {
                 <br></br>
                 We expect that this will be an excellent opportunity for complete beginners to receive support and guidance from proficient coders.
                 <br></br>
-                Have coding experience? Apply instead as a mentor, and guarantee your place at our annual hackathon Hack Cambridge Spyder later in the year.
-                <br></br>
                 What more? There will be free food provided, and an exclusive opportunity to interact with our sponsors and their recruiters!
                 <br></br>
                 
