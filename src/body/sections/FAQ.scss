@@ -8,7 +8,7 @@
     padding: 5%;
     .title{
         @include industry-bold();
-        margin-left: -30%;
+        margin-left: 10%;
     }
     
     .faq-col-1 {
@@ -24,20 +24,7 @@
     .faq-col-3 {
         flex: 5;
         max-width: 80%;
-        margin-left: 20%;
-        .faq-col-3-1{
-            padding-left: 10%;
-            & > *{
-                @include glassmorphism();
-            }
-        }
-        
-        .faq-col-3-2{
-            max-width: 80%;
-            & > *{
-                @include glassmorphism();
-            }
-        }
+        margin-left: 10%;
     }
 
     #FAQ-cube{
@@ -57,7 +44,7 @@
         @include industry-bold();
         font-size: calc(min(0.7in, 8vw));
         color: $lavender;
-        margin-left: -18%;
+        margin-left: -7%;
         z-index:1;
     }
 }

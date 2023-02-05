@@ -1,0 +1,184 @@
+@import "../../shared/style/colour-theme.scss";
+@import "../../shared/style/font.scss";
+
+.main-event {
+    position: relative;
+}
+.main-event-main {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.main-event-bg-parallax {
+    position: absolute;
+    min-width: 100vw;
+}
+
+.main-event-bg {
+    opacity: .8;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-clip: unset;
+    background-position: center;
+    min-width: 100%;
+    min-height: 130vh;
+    z-index: 0;
+    overflow: visible;
+    @media screen and (max-width: 1280px) {
+        background-size: 1000px;
+        min-width: 1000px;
+    }
+}
+
+.main-event-col1 {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main-event-col1 > * {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.main-event-col1 > .SponsorButton {
+    margin-top: 40px;
+}
+
+.main-event-col1 .main-event-hc-title {
+    @include industry-bold();
+    white-space: nowrap;
+    color: $darkgray;
+}
+
+.main-event-col1 .main-event-hc-title-small {
+    font-size: calc(min(1.2in, 6vh));
+    margin-bottom: -2%;
+}
+
+.main-event-col1 .main-event-hc-title-medium {
+    font-size: calc(min(1.3in, 10vh));
+    margin: 4%;
+}
+
+.main-event-col1 h2 {
+    color: dodgerblue;
+    @include industry-bold();
+    font-size: normal;
+}
+
+.main-event-date {
+    @include industry-bold();
+    font-size: calc(min(1.2in, 6vh));
+    color: $lavender;
+    margin-bottom: 10px;
+    margin-top: 0%;
+}
+
+.main-event-col1 > p {
+    color: $teal;
+    margin-top: 10px;
+    line-height: 150%;
+    @include open-sans();
+    text-align: center;
+}
+
+.main-event-col2 {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    .apply-button {
+        margin-top: 20px;
+        color: $red;
+        background-color: $gold;
+        text-decoration: none;
+        border-radius: 5px;
+        // min-height: fit-content;
+        // min-width: fit-content;
+        height: max-content;
+        width: max-content;
+        padding: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include industry-bold();
+        font-size: xx-large;
+        &:hover {
+            color: $darkgray;
+            background-color: $teal;
+            border-radius: 5px;
+        }
+        @media screen and (max-width: 1000px) {
+            font-size: large;
+            padding: 10px;
+            height: max-content;
+        }
+    }
+    .apps-closed {
+        background-color: $gold;
+    }
+    .apps-wl {
+        background-color: transparent;
+        font-size: large;
+        padding: .5vw;
+        margin-top: 10px;
+        &:hover {
+            color: $teal;
+            text-decoration: underline;
+            background-color: inherit;
+        }
+    }
+    .hide {
+        display: none;
+    }
+    .apply-button:hover + .hide {
+        display: block;
+        color: $lavender;
+        margin-top: 10px;
+        @include open-sans();
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .main-event-main {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-event-col1 {
+        flex:none;
+        margin-bottom: 0%;
+        .main-event-hc-title-small {
+            font-size: calc(min(1.2in, 5vh));
+            margin-bottom: -2%;
+        }
+        p {
+            display: none
+        }
+    }
+    .main-event-col2 {
+        flex: none;
+        margin-right: 0%;
+        height: auto;
+    }
+    .main-event-date {
+        @include industry-bold();
+        font-size: calc(min(1.2in, 4vh));
+        color: $lavender;
+    }
+
+}

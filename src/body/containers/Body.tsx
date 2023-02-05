@@ -1,7 +1,8 @@
 import React from "react";
-import AboutUs from "../sections/AboutUs";
+import AboutIntro from "../sections/AboutIntro";
+import AboutMain from "../sections/AboutMain";
 // import Committee from "../sections/Committee";
-// import FAQ from "../sections/FAQ";
+import FAQ from "../sections/FAQ";
 import Landing from "../sections/Landing";
 // import PastHackathons from "../sections/PastHackathons";
 import PastPhotos from "../sections/PastPhotos";
@@ -22,6 +23,7 @@ import hc2019_3 from "../../shared/img/past-photos/hc-2019-3.jpg";
 import hc2020_1 from "../../shared/img/past-photos/hc-2020-1.jpg";
 import hc2020_2 from "../../shared/img/past-photos/hc-2020-2.jpg";
 import hc2021 from '../../shared/img/past-photos/hc-2021-1.png';
+import MainEvent from "../sections/MainEvent";
 /*
 import zoey from '../../shared/img/committee/Zoey.jpg';
 import theo from '../../shared/img/committee/Theo.jpg';
@@ -264,7 +266,7 @@ const sponsorShowcaseInfo: SponsorShowcaseInfo[] = [
         text: "Optiver is a leading global trading firm powered by technical innovation. For 35+ years, Optiver has been improving financial markets around the world, making them healthier and more efficient for all participants. With our focus on cutting-edge engineering, data science and research, we actively trade on 50+ exchanges, where we’re trusted to always provide accurate buy and sell pricing – no matter the market conditions. To be not only active, but also precise, across such a volume of markets and products is a hugely complex challenge, which is exactly what we thrive on."
     },
 ];
-
+*/
 const faqQuestions = [
     {
         question: "What is a hackathon?",
@@ -317,7 +319,7 @@ const faqQuestions = [
         folded: true
     }
 ];
-*/
+
 const pastPhotos = [
     {
         photo: hc2021,
@@ -455,11 +457,13 @@ const applicationsOpen = false;
 export default function Body({logoPath}: BodyProp) {
     return (
         <div className="Body">
-            <Landing name='' logoPath={logoPath} href={linkToApply} applicationsOpen={applicationsOpen}/>
+            <Landing logoPath={logoPath} href={linkToApply} applicationsOpen={applicationsOpen}/>
             {/* <Timeline timelinePhoto={timeline2}/> */}
-            <AboutUs />
+            <AboutIntro />
+            <MainEvent logoPath={logoPath}/>
+            <AboutMain />
+            <FAQ qs={faqQuestions} />
             <PastPhotos items={pastPhotos}/>
-            {/* <FAQ qs={faqQuestions} /> */}
             {/* <SponsorShowcase sponsors={sponsorShowcaseInfo}/> */}
             {/* <Sponsors cohost={cohost} tera={tera} giga={giga} mega={mega} kilo={kilo} meal={meal} partners={partners}/> */}
             {/* <PastHackathons /> */}

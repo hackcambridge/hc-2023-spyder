@@ -9,7 +9,7 @@ export default function Logo({logo}: LogoProps) {
     return (
         <div className="Logo">
             <img src={logo} className="HC-logo" alt="logo" />
-            <h1>Hack Cambridge Spyder Lite</h1>
+            <h1>Hack Cambridge Spyder</h1>
         </div>
     );
 }

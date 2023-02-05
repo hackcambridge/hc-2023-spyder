@@ -11,20 +11,19 @@
     border-radius: 5px;
     line-height: 150%;
     font-size: calc(min(0.5in, 2vh));
-    background-color: $gold;
 }
 
 .FAQ-button {
     p {
-        @include industry-simple();
+        @include industry-bold();
         color: $red;
         font-size: calc(min(0.2in, 3vw));
-        text-align: left;
+        text-align: center;
+        width: 80vw;
     }
-    max-width: 800px;
     border: 1px solid rgba(3, 169, 244, 0);
     border-radius: 10px;
-    background-color: $lightorange;
+    background-color: $gold;
 }
 
 .ReactCollapse--collapse {
@@ -36,8 +35,10 @@
   }
 
 .text{
-    @include open-sans();
+    @include industry-bold();
     color: $teal;
     font-size: calc(min(0.2in, 3vw));
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 80vw;
 }

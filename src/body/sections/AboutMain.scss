@@ -2,7 +2,7 @@
 @import '../../shared/style/font.scss';
 @import '../../shared/style/util.scss';
 
-.AboutUs {
+.AboutMain {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -11,7 +11,7 @@
     padding: 5%;
 }
 
-.about-us-col-1 {
+.about-main-col-1 {
     flex: 3;
     margin-left: 5%;
     h1 {
@@ -28,7 +28,7 @@
         margin-top: -3%;
         margin-left: 0.5%;
     }
-    .about-us-with-dec {
+    .about-main-with-dec {
         display: flex;
         p {
             @include industry-bold();
@@ -41,21 +41,21 @@
             font-size: calc(min(0.5in, 2vh));
             width: 78vw;
         }
-        .about-us-dec {
+        .about-main-dec {
             max-width: 7vw;
         }
-        #about-us-cone {
+        #about-main-cone {
             transform: rotate(-15deg);
             max-width: calc(max(1in, 5vw));
             margin-top: -60%;
         }
-        #about-us-donut {
+        #about-main-donut {
             transform: rotate(30deg);
             max-width: calc(max(1in, 5vw));
             margin-left: -5%;
         }
 
-        #about-us-sphere {
+        #about-main-sphere {
             max-width: calc(max(1in, 4vw));
             margin-left: -60%;
             margin-top: calc(440px - 20vw);
@@ -63,7 +63,7 @@
     }
 }
 
-.about-us-col-2 {
+.about-main-col-2 {
     margin-top: 5%;
     margin-left: 10px;
     flex: 1.5;

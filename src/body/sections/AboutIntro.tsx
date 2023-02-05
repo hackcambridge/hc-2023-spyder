@@ -1,20 +1,20 @@
 import React from "react";
-import "./AboutUs.scss";
+import "./AboutIntro.scss";
 import Fade from "react-reveal";
 
-export type AboutUsProps = {};
+export type AboutIntroProps = {};
 
-export default function AboutUs(props: AboutUsProps) {
+export default function AboutIntro(props: AboutIntroProps) {
   return (
-    <div className={"AboutUs"} id="about-us">
-      <div className="about-us-col about-us-col-1">
+    <div className={"AboutIntro"} id="about-intro">
+      <div className="about-intro-col about-intro-col-1">
         <Fade left>
-          <h1>Join us to make a difference</h1>
+          <h1>Join us to develop coding skills</h1>
           <h2>Design and Project Office (DPO) in the Engineering Department</h2>
         </Fade>
         <Fade bottom>
-          <div className="about-us-with-dec">
-            <div className="about-us-with-dec-col-1">
+          <div className="about-intro-with-dec">
+            <div className="about-intro-with-dec-col-1">
               <p>
                 Greetings from Hack Cambridge!
                 We know that you are as excited as we are about the upcoming events.
@@ -36,21 +36,7 @@ export default function AboutUs(props: AboutUsProps) {
                 <br></br>
                 
                 <br></br>
-                Hack Cambridge Spyder is incredible opportunity for you to explore all possibilities in a sprint-like event.
-                <br></br>
-                Come with your team to hack together for 24 hours,
-                talk to recruiters from our sponsors and enjoy the workshops!
-                <br></br>
-                We hope to bring keen, ambitious and talented
-                students together and create original
-                solutions for social good.
-                <br></br>
-                Together with your energy, creativity,
-                hacker spirit, we hope to empower a better, more sustainable future.
-                <br></br>
-                
-                <br></br>
-                We look forward to meeting you at Hack Cambridge Spyder Lite Introductory Hackathon this March, and Hack Cambridge Spyder later in the year!
+                We look forward to meeting you at Hack Cambridge Spyder Lite Introductory Hackathon this March!
               </p>
             </div>
           </div>
