@@ -1,7 +1,7 @@
 import React from "react";
 import AboutUs from "../sections/AboutUs";
 // import Committee from "../sections/Committee";
-import FAQ from "../sections/FAQ";
+// import FAQ from "../sections/FAQ";
 import Landing from "../sections/Landing";
 // import PastHackathons from "../sections/PastHackathons";
 import PastPhotos from "../sections/PastPhotos";
@@ -264,7 +264,6 @@ const sponsorShowcaseInfo: SponsorShowcaseInfo[] = [
         text: "Optiver is a leading global trading firm powered by technical innovation. For 35+ years, Optiver has been improving financial markets around the world, making them healthier and more efficient for all participants. With our focus on cutting-edge engineering, data science and research, we actively trade on 50+ exchanges, where we’re trusted to always provide accurate buy and sell pricing – no matter the market conditions. To be not only active, but also precise, across such a volume of markets and products is a hugely complex challenge, which is exactly what we thrive on."
     },
 ];
-*/
 
 const faqQuestions = [
     {
@@ -318,7 +317,7 @@ const faqQuestions = [
         folded: true
     }
 ];
-
+*/
 const pastPhotos = [
     {
         photo: hc2021,
@@ -460,7 +459,7 @@ export default function Body({logoPath}: BodyProp) {
             {/* <Timeline timelinePhoto={timeline2}/> */}
             <AboutUs />
             <PastPhotos items={pastPhotos}/>
-            <FAQ qs={faqQuestions} />
+            {/* <FAQ qs={faqQuestions} /> */}
             {/* <SponsorShowcase sponsors={sponsorShowcaseInfo}/> */}
             {/* <Sponsors cohost={cohost} tera={tera} giga={giga} mega={mega} kilo={kilo} meal={meal} partners={partners}/> */}
             {/* <PastHackathons /> */}
