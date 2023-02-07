@@ -40,16 +40,12 @@ export default function Landing({href, logoPath, applicationsOpen}: LandingProps
                 </Fade>
                     <div className="landing-col2">
                         {/* <LightBulb /> */}
-                        <Timer targetDate={targetDate} until={"Applications Open"}/>
+                        <Timer targetDate={targetDate} until={"Event Begins"}/>
                         {applicationsOpen && <a href={href} className="apply-button">Apply today!</a>}
                         {!applicationsOpen && (
                         <>
                         {/* <a href="/" className="apply-button apps-closed">Applications closed</a> */}
-                        <a href="https://forms.gle/ER9FETGS1fou3XJf9" className="apply-button apps-closed">Join Mailing List</a>
-                        <a href="mailto://team@hackcambridge.com" className="apply-button apps-closed">Interested in Sponsoring Us?</a>
-                        <p className='hide'>Never Sponsored us before? Don't worry, New Sponsors Welcome</p>
-                        <a href="https://forms.gle/6Wuaf5yLQeU7BBVQ9" className="apply-button apps-closed">Actively Recruiting</a>
-                        <p className='hide'>No Prior Experience Required</p>
+                        <a href="http://eepurl.com/ij_qOn" className="apply-button apps-closed">Join Mailing List</a>
                         </>
                         )}
                     </div>

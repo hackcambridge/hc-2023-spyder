@@ -274,7 +274,7 @@ const faqQuestions = [
         folded: true
     },
     {
-        question: "How does the hybrid Hackathon work？Can my team be considered for prizes or chat with your sponsors?",
+        question: "How does the hybrid hackathon work? Can my team be considered for prizes or chat with your sponsors?",
         answer: "We will invite 350 participants to join us in-person at Cambridge for the Event and 200 to join us through Discord. All workshops and engagement sessions will happen in-person while being live-streamed on Discord. Our sponsors will join Discord to interact with you if you participate online. Judging for online participants will take place through Discord too. When we invite you to the event, the email will specify whether we would be able to offer you a place offline. We would really hope to accommodate everyone offline, but your safety and health is our top one priority.",
         folded: true
     },
@@ -309,7 +309,7 @@ const faqQuestions = [
         folded: true
     },
     {
-        question: "What is your current covid-19 policies if I am attending the event in-person?",
+        question: "What is your current COVID-19 policies if I am attending the event in-person?",
         answer: `Your registration, RSVP, fully-vaccinated status (or exemption) AND a negative result for a Covid-19 test taken within 24 hours of the event entitles you to admittance to the in-person HackCambridge Atlas event. Rather than using COVID Pass, we require a text or email notification of your test from NHS Test and Trace as a condition of entry*.
         Registration opens at 0900 on Saturday 11th March 2023. We require you to have taken a negative PCR or rapid lateral flow test within 24 hours of the event, preferably within 12 hours. As our event is >30 hours long, we will not accept tests taken on Thursday, even if they are within 48 hours of registration. The Government advises that “to strengthen the protection testing provides you should take tests as late as possible before attending the event, ideally within 12 hours”
         Fully-vaccinated status means that you you are vaccinated with 2 doses of an approved vaccine (or one of the single-dose Janssen vaccine). By attending our in-person event you declare that you do meet the criteria outlined above. The vaccines approved in the UK can be found on the government website: https://www.gov.uk/guidance/countries-with-approved-covid-19-vaccination-programmes-and-proof-of-vaccination.
