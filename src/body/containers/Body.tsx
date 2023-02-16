@@ -454,7 +454,6 @@ const committeInfo = [
 // const linkToJoin = 'https://forms.gle/2rNYCxYPBcUXQ7EC8';
 const linkToApply = '/apply';
 const applicationsOpen = false;
-const IntroSponsorLogoPath = '../img/sponsors/IntroSponsor.png';
 
 export default function Body({logoPath}: BodyProp) {
     return (
@@ -462,7 +461,7 @@ export default function Body({logoPath}: BodyProp) {
             <Landing logoPath={logoPath} href={linkToApply} applicationsOpen={applicationsOpen}/>
             {/* <Timeline timelinePhoto={timeline2}/> */}
             <AboutIntro />
-            <IntroSponsor logo={IntroSponsorLogoPath}/>
+            <IntroSponsor />
             <MainEvent logoPath={logoPath}/>
             <AboutMain />
             <FAQ qs={faqQuestions} />
