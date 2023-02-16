@@ -1,0 +1,10 @@
+.Intro-Sponsor-Logo-body {
+    display: block;
+    flex-direction: row;
+    align-items: center;
+}
+
+.intro-sponsor-logo-body {
+    height: calc(max(30vh, 150px));
+    padding-bottom: 10px;
+}

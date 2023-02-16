@@ -25,7 +25,7 @@ export default function AboutIntro(props: AboutIntroProps) {
                 <br></br>
                 
                 <br></br>
-                Hack Cambridge Spyder Lite will be a first of its kind introductory hackathon.
+                Hack Cambridge Spyder Lite is your opportunity to develop vital coding skills.
                 We will be bringing together experienced hackers with beginners.
                 <br></br>
                 We expect that this will be an excellent opportunity for complete beginners to receive support and guidance from proficient coders.

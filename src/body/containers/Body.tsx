@@ -24,6 +24,7 @@ import hc2020_1 from "../../shared/img/past-photos/hc-2020-1.jpg";
 import hc2020_2 from "../../shared/img/past-photos/hc-2020-2.jpg";
 import hc2021 from '../../shared/img/past-photos/hc-2021-1.png';
 import MainEvent from "../sections/MainEvent";
+import IntroSponsor from "../sections/IntroSponsor";
 /*
 import zoey from '../../shared/img/committee/Zoey.jpg';
 import theo from '../../shared/img/committee/Theo.jpg';
@@ -453,6 +454,7 @@ const committeInfo = [
 // const linkToJoin = 'https://forms.gle/2rNYCxYPBcUXQ7EC8';
 const linkToApply = '/apply';
 const applicationsOpen = false;
+const IntroSponsorLogoPath = '../img/sponsors/IntroSponsor.png';
 
 export default function Body({logoPath}: BodyProp) {
     return (
@@ -460,6 +462,7 @@ export default function Body({logoPath}: BodyProp) {
             <Landing logoPath={logoPath} href={linkToApply} applicationsOpen={applicationsOpen}/>
             {/* <Timeline timelinePhoto={timeline2}/> */}
             <AboutIntro />
+            <IntroSponsor logo={IntroSponsorLogoPath}/>
             <MainEvent logoPath={logoPath}/>
             <AboutMain />
             <FAQ qs={faqQuestions} />

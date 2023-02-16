@@ -30,7 +30,7 @@ export default function Landing({href, logoPath, applicationsOpen}: LandingProps
                         <p>
                         Cambridge's biggest student-run hackathons are back! <br></br>
                         We're excited to present Hack Cambridge Spyder Lite 2023. <br></br>
-                        This is our first of a kind introductory hackathon! <br></br>
+                        This is your opportunity to develop vital coding skills! <br></br>
                         We'll be bringing together experienced hackers with <br></br>
                         beginners to level the playing field at our main event. <br></br>
                         Applications will be opening very soon! <br></br>

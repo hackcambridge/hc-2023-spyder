@@ -6,9 +6,9 @@ import React from "react";
 
 function App() {
   const navElements = [
-    {name: "Lite Introductory Hackathon", href: "#about-intro"},
+    {name: "Lite Hackathon", href: "#about-intro"},
     {name: "Main Hackathon", href: "#main-event"},
-    // {name: "FAQ", href: "#faq"},
+    {name: "FAQ", href: "#faq"},
     // {name: "Our Sponsors", href: "#sponsor-showcase"}
     // {name: "Meet the team", href: "#team"}
   ];
