@@ -1,7 +1,10 @@
 .Intro-Sponsor-Logo-body {
-    display: block;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
+    position: relative;
+    margin-top: calc(min(-30vh, -150px));
+    margin-left: calc(max(40vh, 200px));
 }
 
 .intro-sponsor-logo-body {
