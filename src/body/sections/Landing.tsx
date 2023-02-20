@@ -33,7 +33,7 @@ export default function Landing({href, applicationsOpen}: LandingProps) {
                         This is your opportunity to develop vital coding skills! <br></br>
                         We'll be bringing together experienced hackers with
                         beginners to level the playing field at our main event. <br></br>
-                        Applications will be opening very soon! <br></br>
+                        Applications are open for University of Cambridge students! <br></br>
                         Follow us on our social media accounts to receive updates.
                         </p>
                     </div>
@@ -41,11 +41,20 @@ export default function Landing({href, applicationsOpen}: LandingProps) {
                     <div className="landing-col2">
                         {/* <LightBulb /> */}
                         <Timer targetDate={targetDate} until={"Event Begins"}/>
-                        {applicationsOpen && <a href={href} className="apply-button">Apply today!</a>}
+                        {applicationsOpen && (
+                        <>
+                        <a href="http://eepurl.com/ij_qOn" className="apply-button apps-closed">Join Mailing List</a>
+                        <a href="https://forms.gle/YCJTsC9oPYfXe9Hs9" className="apply-button">Apply today!</a>
+                        <p>
+                        Applications are open for University of Cambridge students! <br></br>
+                        Sign in to your University of Cambridge account to apply. <br></br>
+                        Remember to join our mailing list to receive updates.
+                        </p>
+                        </>
+                        )}
                         {!applicationsOpen && (
                         <>
                         {/* <a href="/" className="apply-button apps-closed">Applications closed</a> */}
-                        <a href="http://eepurl.com/ij_qOn" className="apply-button apps-closed">Join Mailing List</a>
                         </>
                         )}
                     </div>

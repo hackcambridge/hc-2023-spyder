@@ -453,7 +453,7 @@ const committeInfo = [
 */
 // const linkToJoin = 'https://forms.gle/2rNYCxYPBcUXQ7EC8';
 const linkToApply = '/apply';
-const applicationsOpen = false;
+const applicationsOpen = true;
 
 export default function Body({logoPath}: BodyProp) {
     return (
