@@ -27,11 +27,11 @@ export default function MainEvent({logoPath}: MainEventProps) {
                         <p>
                         Hack Cambridge Spyder 2023 has been scheduled.<br></br>
                         Our eighth hackathon may run both virtually and in-person. <br></br>
-                        We hope this will be our first full capacity in-person hackathon <br></br>
-                        since COVID-19. As a small committee and we would like to grow. <br></br>
-                        If you are a student at the University of Cambridge, and you are <br></br>
-                        interested in joining the Hack Cambride Committee this year, <br></br>
-                        please fill in the application form. No prior experience required <br></br>
+                        We hope this will be our first full capacity in-person hackathon
+                        since COVID-19. As a small committee and we would like to grow.
+                        If you are a student at the University of Cambridge, and you are
+                        interested in joining the Hack Cambride Committee this year,
+                        please fill in the application form. No prior experience required. <br></br>
                         Follow us on our social media accounts to receive updates.
                         </p>
                     </div>

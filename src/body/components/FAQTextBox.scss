@@ -17,7 +17,7 @@
     p {
         @include industry-bold();
         color: $red;
-        font-size: calc(min(0.2in, 3vw));
+        font-size: calc(min(0.5in, 1.5vw));
         text-align: center;
         width: 80vw;
     }
@@ -41,4 +41,5 @@
     padding-top: 5%;
     padding-bottom: 5%;
     width: 80vw;
+    line-height: 150%;
 }

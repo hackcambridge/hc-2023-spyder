@@ -18,19 +18,18 @@ export default function AboutIntro(props: AboutIntroProps) {
               <p>
                 Greetings from Hack Cambridge!
                 We know that you are as excited as we are about the upcoming events.
-                The largest student-run hackathon in Cambridge is back.
                 <br></br>
+                The largest student-run hackathon in Cambridge is back.
                 This year, Hack Cambridge has been organising two events:
                 Hack Cambridge Spyder Lite Introductory Hackathon & Hack Cambridge Spyder Hackathon
                 <br></br>
                 
                 <br></br>
                 Hack Cambridge Spyder Lite is your opportunity to develop vital coding skills.
-                We will be bringing together experienced hackers with beginners.
                 <br></br>
-                We expect that this will be an excellent opportunity for complete beginners to receive support and guidance from proficient coders.
+                This will be an excellent opportunity for hackers to receive support and guidance from proficient coders.
                 <br></br>
-                What more? There will be free food provided, and an exclusive opportunity to interact with our sponsors and their recruiters!
+                There will be free food provided, and an exclusive opportunity to interact with our sponsors and their recruiters!
                 <br></br>
                 
                 <br></br>

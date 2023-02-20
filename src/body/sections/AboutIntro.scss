@@ -14,15 +14,16 @@
 .about-intro-col-1 {
     flex: 3;
     margin-left: 5%;
+    margin-right: 5%;
     h1 {
         @include industry-bold();
-        font-size: calc(min(0.7in, 8vw));
+        font-size: 5vw;
         color: $lavender;
         margin-left: 0.5%;
     }
     h2 {
         @include industry-bold();
-        font-size: calc(min(0.4in, 4vw));
+        font-size: 2.5vw;
         color: $teal;
         padding-top: 1px;
         margin-top: -3%;
@@ -38,7 +39,7 @@
             color: $red;
             background-color: $gold;
             line-height: 150%;
-            font-size: calc(min(0.5in, 2vh));
+            font-size: calc(min(0.5in, 1.5vw));
             width: 78vw;
         }
         .about-intro-dec {

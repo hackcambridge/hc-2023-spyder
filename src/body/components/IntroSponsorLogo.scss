@@ -1,13 +1,13 @@
 .Intro-Sponsor-Logo-body {
-    display: inline-block;
+    display: block;
     flex-direction: row;
     align-items: center;
     position: relative;
-    margin-top: calc(min(-30vh, -150px));
-    margin-left: calc(max(40vh, 200px));
+    margin-top: -15vw;
+    margin-left: 25vw;
 }
 
 .intro-sponsor-logo-body {
-    height: calc(max(30vh, 150px));
+    width: 50vw;
     padding-bottom: 10px;
 }

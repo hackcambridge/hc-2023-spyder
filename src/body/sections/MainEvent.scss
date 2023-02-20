@@ -62,12 +62,12 @@
 }
 
 .main-event-col1 .main-event-hc-title-small {
-    font-size: calc(min(1.2in, 6vh));
+    font-size: calc(min(1.2in, 3vw));
     margin-bottom: -2%;
 }
 
 .main-event-col1 .main-event-hc-title-medium {
-    font-size: calc(min(1.3in, 10vh));
+    font-size: calc(min(1.3in, 5vw));
     margin: 4%;
 }
 
@@ -121,11 +121,6 @@
             background-color: $teal;
             border-radius: 5px;
         }
-        @media screen and (max-width: 1000px) {
-            font-size: large;
-            padding: 10px;
-            height: max-content;
-        }
     }
     .apps-closed {
         background-color: $gold;
@@ -155,6 +150,10 @@
 
 
 @media screen and (max-width: 1000px) {
+    .main-event {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
     .main-event-main {
         flex-direction: column;
         justify-content: center;
@@ -163,22 +162,34 @@
         flex:none;
         margin-bottom: 0%;
         .main-event-hc-title-small {
-            font-size: calc(min(1.2in, 5vh));
+            font-size: 5vw;
             margin-bottom: -2%;
+        }
+        .main-event-hc-title-medium {
+            font-size: 8vw;
+            margin: 4%;
         }
         p {
             display: none
+        }
+        .apply-button {
+            font-size: large;
+            padding: 10px;
+            height: max-content;
         }
     }
     .main-event-col2 {
         flex: none;
         margin-right: 0%;
         height: auto;
+        font-size: 3vw;
     }
     .main-event-date {
         @include industry-bold();
         font-size: calc(min(1.2in, 4vh));
         color: $lavender;
+        font-size: 5vw;
+        margin-bottom: 4%;
     }
 
 }

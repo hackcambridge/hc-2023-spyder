@@ -7,14 +7,14 @@
 }
 
 .HC-logo {
-    height: calc(max(6vh, 35px));
-    margin-right: 10px;
+    height: 5vw;
+    margin-right: 30px;
 }
 
 .Logo h1 {
     white-space: nowrap;
     @include industry-bold();
-    font-size: calc(min(0.5in, 3vh));
+    font-size: calc(min(0.5in, 2vw));
 }
 
 @media screen and (max-width:480px) {

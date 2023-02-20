@@ -21,16 +21,16 @@ export default function IntroSponsor(props: IntroSponsorProps) {
           <div className="intro-sponsor-with-dec">
             <div className="intro-sponsor-with-dec-col-1">
               <p>
-              Reply is a company that specialises in Consulting, Systems Integration and Digital Services with a focus on <br></br>
+              Reply is a company that specialises in Consulting, Systems Integration and Digital Services with a focus on
               the conception, design and implementation of solutions based on the new communication channels and digital media. <br></br>
-              Reply partners with key industrial groups in defining and developing business models made possible <br></br>
-              by the new technological and communication paradigms such as Artificial Intelligence, Big Data, <br></br>
+              Reply partners with key industrial groups in defining and developing business models made possible
+              by the new technological and communication paradigms such as Artificial Intelligence, Big Data,
               Cloud Computing, Digital Communication, the Internet of Things and Mobile and Social Networking. <br></br>
               In so doing, it aims to optimise and integrate processes, applications and devices.
               <br></br>
                
               <br></br>
-              <iframe title="Reply Video" height="500" width="1100" src="https://d1z7icpqkuzo43.cloudfront.net/production/28/92/ce4eb3d9-80e9-4e34-8da3-f3405489978d/9e6633f4-8d84-4c6c-9b2f-a47b45cc1618.mp4"></iframe>
+              <iframe width="100%" height="400" src="https://www.youtube.com/embed/HBycOjDKKHo?list=PLgqiBpQGzC2AX7yzh4bITAP4d9zcx9UWP" title="We Reply"></iframe>
               </p>
             </div>
           </div>

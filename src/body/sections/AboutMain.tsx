@@ -18,8 +18,8 @@ export default function AboutMain(props: AboutMainProps) {
               <p>
                 Greetings from Hack Cambridge!
                 We know that you are as excited as we are about the upcoming events.
-                The largest student-run hackathon in Cambridge is back.
                 <br></br>
+                The largest student-run hackathon in Cambridge is back.
                 This year, Hack Cambridge has been organising two events:
                 Hack Cambridge Spyder Lite Introductory Hackathon & Hack Cambridge Spyder Hackathon
                 <br></br>
@@ -28,7 +28,7 @@ export default function AboutMain(props: AboutMainProps) {
                 Hack Cambridge Spyder is incredible opportunity for you to explore all possibilities in a sprint-like event.
                 <br></br>
                 Come with your team to hack together for 24 hours,
-                talk to recruiters from our sponsors and enjoy the workshops!
+                talk to recruiters from our sponsors and enjoy workshops!
                 <br></br>
                 We hope to bring keen, ambitious and talented
                 students together and create original

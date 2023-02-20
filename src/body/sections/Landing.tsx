@@ -15,7 +15,7 @@ export type LandingProps = {
 /**
  * Landing Section
  */
-export default function Landing({href, logoPath, applicationsOpen}: LandingProps) {
+export default function Landing({href, applicationsOpen}: LandingProps) {
     // TODO: Move state up to Landing and define all the constants here
     return (
         <div className="Landing">
@@ -31,7 +31,7 @@ export default function Landing({href, logoPath, applicationsOpen}: LandingProps
                         Cambridge's biggest student-run hackathons are back! <br></br>
                         We're excited to present Hack Cambridge Spyder Lite 2023. <br></br>
                         This is your opportunity to develop vital coding skills! <br></br>
-                        We'll be bringing together experienced hackers with <br></br>
+                        We'll be bringing together experienced hackers with
                         beginners to level the playing field at our main event. <br></br>
                         Applications will be opening very soon! <br></br>
                         Follow us on our social media accounts to receive updates.
