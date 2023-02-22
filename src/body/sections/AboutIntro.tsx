@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutIntro.scss";
 import Fade from "react-reveal";
+import DirectionsVideo from "../../shared/img/directions-to-CUED-DPO.mp4";
 
 export type AboutIntroProps = {};
 
@@ -35,6 +36,7 @@ export default function AboutIntro(props: AboutIntroProps) {
                 <br></br>
                 We look forward to meeting you at Hack Cambridge Spyder Lite Introductory Hackathon this March!
               </p>
+              <iframe width="100%" height="400" src={DirectionsVideo} title="Directions Video to the CUED DPO"></iframe>
             </div>
           </div>
         </Fade>
