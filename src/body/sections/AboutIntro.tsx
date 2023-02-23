@@ -6,6 +6,11 @@ import DirectionsVideo from "../../shared/img/directions-to-CUED-DPO.mp4";
 export type AboutIntroProps = {};
 
 export default function AboutIntro(props: AboutIntroProps) {
+  var PrivacyPolicy = "https://hackcambridge.com/documents/privacy-policy.pdf";
+  var CodeOfConduct = "https://static.mlh.io/docs/mlh-code-of-conduct.pdf";
+  var PrivacyPolicyLink = "http://docs.google.com/viewer?url=" + PrivacyPolicy + "&embedded=true";
+  var CodeOfConductLink = "http://docs.google.com/viewer?url=" + CodeOfConduct + "&embedded=true";
+
   return (
     <div className={"AboutIntro"} id="about-intro">
       <div className="about-intro-col about-intro-col-1">
@@ -40,8 +45,8 @@ export default function AboutIntro(props: AboutIntroProps) {
           </div>
         </Fade>
         <iframe width="100%" height="400" src={DirectionsVideo} title="Directions Video to the CUED DPO"></iframe>
-        <iframe width="100%" height="400" src="http://docs.google.com/viewer?url=https://hackcambridge.com/documents/privacy-policy.pdf&embedded=true" title="Privacy Policy"></iframe>
-        <iframe width="100%" height="400" src="http://docs.google.com/viewer?url=https://static.mlh.io/docs/mlh-code-of-conduct.pdf&embedded=true" title="Code of Conduct"></iframe>
+        <iframe width="100%" height="400" src={PrivacyPolicyLink} title="Privacy Policy"></iframe>
+        <iframe width="100%" height="400" src={CodeOfConductLink} title="Code of Conduct"></iframe>
       </div>
     </div>
   );
