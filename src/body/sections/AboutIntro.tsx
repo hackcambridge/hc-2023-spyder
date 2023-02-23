@@ -2,15 +2,11 @@ import React from "react";
 import "./AboutIntro.scss";
 import Fade from "react-reveal";
 import DirectionsVideo from "../../shared/img/directions-to-CUED-DPO.mp4";
+import PrivacyPolicy from "../../shared/img/privacy-policy.pdf";
 
 export type AboutIntroProps = {};
 
 export default function AboutIntro(props: AboutIntroProps) {
-  var PrivacyPolicy = "https://hackcambridge.com/documents/privacy-policy.pdf";
-  var CodeOfConduct = "https://static.mlh.io/docs/mlh-code-of-conduct.pdf";
-  var PrivacyPolicyLink = "http://docs.google.com/viewer?url=" + PrivacyPolicy + "&embedded=true";
-  var CodeOfConductLink = "http://docs.google.com/viewer?url=" + CodeOfConduct + "&embedded=true";
-
   return (
     <div className={"AboutIntro"} id="about-intro">
       <div className="about-intro-col about-intro-col-1">
@@ -45,8 +41,8 @@ export default function AboutIntro(props: AboutIntroProps) {
           </div>
         </Fade>
         <iframe width="100%" height="400" src={DirectionsVideo} title="Directions Video to the CUED DPO"></iframe>
-        <iframe width="100%" height="400" src={PrivacyPolicyLink} title="Privacy Policy"></iframe>
-        <iframe width="100%" height="400" src={CodeOfConductLink} title="Code of Conduct"></iframe>
+        <iframe width="100%" height="400" src={PrivacyPolicy} title="Privacy Policy"></iframe>
+        <iframe width="100%" height="400" src="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" title="Code of Conduct"></iframe>
       </div>
     </div>
   );

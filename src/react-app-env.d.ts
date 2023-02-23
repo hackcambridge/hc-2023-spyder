@@ -7,6 +7,11 @@ declare module 'react-reveal';
 declare module 'react-scroll-rotate';
 
 declare module '*.mp4' {
-    const src: string;
-    export default src;
-  }
+  const src: string;
+  export default src;
+}
+
+declare module '*.pdf' {
+  const src: string;
+  export default src;
+}
