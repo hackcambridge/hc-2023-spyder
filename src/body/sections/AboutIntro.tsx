@@ -36,12 +36,12 @@ export default function AboutIntro(props: AboutIntroProps) {
                 <br></br>
                 We look forward to meeting you at Hack Cambridge Spyder Lite Introductory Hackathon this March!
               </p>
-              <iframe width="100%" height="400" src={DirectionsVideo} title="Directions Video to the CUED DPO"></iframe>
-              <iframe src="http://docs.google.com/viewer?url=https://hackcambridge.com/documents/privacy-policy.pdf&embedded=true" title="Privacy Policy"></iframe>
-              <iframe src="http://docs.google.com/viewer?url=https://static.mlh.io/docs/mlh-code-of-conduct.pdf&embedded=true" title="Code of Conduct"></iframe>
             </div>
           </div>
         </Fade>
+        <iframe width="100%" height="400" src={DirectionsVideo} title="Directions Video to the CUED DPO"></iframe>
+        <iframe width="100%" height="400" src="http://docs.google.com/viewer?url=https://hackcambridge.com/documents/privacy-policy.pdf&embedded=true" title="Privacy Policy"></iframe>
+        <iframe width="100%" height="400" src="http://docs.google.com/viewer?url=https://static.mlh.io/docs/mlh-code-of-conduct.pdf&embedded=true" title="Code of Conduct"></iframe>
       </div>
     </div>
   );

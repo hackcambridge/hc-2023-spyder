@@ -29,6 +29,10 @@
         margin-top: -3%;
         margin-left: 0.5%;
     }
+    iframe {
+        height: 46vw;
+        width: 82vw;
+    }
     .about-intro-with-dec {
         display: flex;
         p {
@@ -41,10 +45,6 @@
             line-height: 150%;
             font-size: calc(min(0.5in, 1.5vw));
             width: 78vw;
-        }
-        iframe {
-            height: 46vw;
-            width: 82vw;
         }
         .about-intro-dec {
             max-width: 7vw;
