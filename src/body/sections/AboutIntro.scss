@@ -29,10 +29,7 @@
         margin-top: -3%;
         margin-left: 0.5%;
     }
-    iframe {
-        height: 46vw;
-        width: 82vw;
-    }
+    
     .about-intro-with-dec {
         display: flex;
         p {
@@ -45,6 +42,33 @@
             line-height: 150%;
             font-size: calc(min(0.5in, 1.5vw));
             width: 78vw;
+        }
+        iframe {
+            height: 46vw;
+            width: 82vw;
+        }
+        .document-link {
+            margin: 1vw;
+            color: $red;
+            background-color: $gold;
+            text-decoration: none;
+            border-radius: 5px;
+            // min-height: fit-content;
+            // min-width: fit-content;
+            height: max-content;
+            width: max-content;
+            padding: 1vw;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            @include industry-bold();
+            font-size: 2.5vw;
+            &:hover {
+                color: $darkgray;
+                background-color: $teal;
+                border-radius: 5px;
+            }
         }
         .about-intro-dec {
             max-width: 7vw;

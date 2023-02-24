@@ -2,7 +2,6 @@ import React from "react";
 import "./AboutIntro.scss";
 import Fade from "react-reveal";
 import DirectionsVideo from "../../shared/img/directions-to-CUED-DPO.mp4";
-import PrivacyPolicy from "../../shared/img/privacy-policy.pdf";
 
 export type AboutIntroProps = {};
 
@@ -37,12 +36,12 @@ export default function AboutIntro(props: AboutIntroProps) {
                 <br></br>
                 We look forward to meeting you at Hack Cambridge Spyder Lite Introductory Hackathon this March!
               </p>
+              <iframe width="100%" height="400" src={DirectionsVideo} title="Directions Video to the CUED DPO"></iframe>
+              <a href="https://hackcambridge.com/documents/privacy-policy.pdf" className="document-link">Hack Cambridge Spyder Lite Privacy Policy</a>
+              <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" className="document-link">MLH Code of Conduct</a>
             </div>
           </div>
         </Fade>
-        <iframe width="100%" height="400" src={DirectionsVideo} title="Directions Video to the CUED DPO"></iframe>
-        <iframe width="100%" height="400" src={PrivacyPolicy} title="Privacy Policy"></iframe>
-        <iframe width="100%" height="400" src="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" title="Code of Conduct"></iframe>
       </div>
     </div>
   );
