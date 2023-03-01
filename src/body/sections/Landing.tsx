@@ -4,7 +4,7 @@ import Timer from '../components/Timer';
 import Fade from 'react-reveal';
 
 // Format is MM/DD/YYYY
-export const targetDate = new Date('03/10/2023');
+export const targetDate = new Date('03/12/2023, 09:00:00');
 
 export type LandingProps = {
     href: string;
@@ -53,7 +53,8 @@ export default function Landing({href, applicationsOpen}: LandingProps) {
                         )}
                         {!applicationsOpen && (
                         <>
-                        {/* <a href="/" className="apply-button apps-closed">Applications closed</a> */}
+                        <a href="http://eepurl.com/ij_qOn" className="apply-button apps-closed">Join Mailing List</a>
+                        <a href="/" className="apply-button apps-closed">Applications closed</a>
                         </>
                         )}
                     </div>
