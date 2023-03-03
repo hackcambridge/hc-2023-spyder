@@ -2,7 +2,7 @@ import React from 'react';
 import './MainEvent.scss';
 import Fade from 'react-reveal';
 import Logo from '../components/Logo';
-import MLHBanner from "../components/MLHBanner";
+// import MLHBanner from "../components/MLHBanner";
 
 // Format is MM/DD/YYYY
 export const targetDate = new Date('03/10/2023');
@@ -17,7 +17,7 @@ export type MainEventProps = {
 export default function MainEvent({logoPath}: MainEventProps) {
     return (
         <div className="main-event" id='main-event'>
-            <MLHBanner />
+            {/* <MLHBanner /> */}
             <div className={"main-event-main"}>
                 <Fade left>
                     <div className="main-event-col1">
