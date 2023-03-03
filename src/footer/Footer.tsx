@@ -18,7 +18,7 @@ export default function Footer(props: FooterProps) {
         <div className="JoinUs">
             <a href="https://forms.gle/ER9FETGS1fou3XJf9"><h1>Join our mailing list!</h1></a>
             <a href="https://forms.gle/6Wuaf5yLQeU7BBVQ9"><h1>Join our organising committee!</h1></a>
-            <a href="https://forms.gle/YCJTsC9oPYfXe9Hs9"><h1>Apply today!</h1></a>
+            {/* <a href="https://forms.gle/YCJTsC9oPYfXe9Hs9"><h1>Apply today!</h1></a> */}
         </div>
         <div className="SocialMedia">
             <a href="https://hackcambridge.com">

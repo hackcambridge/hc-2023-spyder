@@ -33,7 +33,7 @@ export default function Landing({href, applicationsOpen}: LandingProps) {
                         This is your opportunity to develop vital coding skills! <br></br>
                         We'll be bringing together experienced hackers with
                         beginners to level the playing field at our main event. <br></br>
-                        Applications are open for students from ALL UNIVERSITIES! <br></br>
+                        Applications have closed for Hack Cambridge Spyder Lite. <br></br>
                         Follow us on our social media accounts to receive updates.
                         </p>
                     </div>
@@ -55,6 +55,10 @@ export default function Landing({href, applicationsOpen}: LandingProps) {
                         <>
                         <a href="http://eepurl.com/ij_qOn" className="apply-button apps-closed">Join Mailing List</a>
                         <a href="/" className="apply-button apps-closed">Applications closed</a>
+                        <p>
+                        Applications have closed for Hack Cambridge Spyder Lite. <br></br>
+                        Remember to join our mailing list to receive updates.
+                        </p>
                         </>
                         )}
                     </div>
