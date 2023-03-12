@@ -4,7 +4,7 @@ import Timer from '../components/Timer';
 import Fade from 'react-reveal';
 
 // Format is MM/DD/YYYY
-export const targetDate = new Date('03/12/2023, 09:00:00');
+export const targetDate = new Date('03/12/2023, 18:00:00');
 
 export type LandingProps = {
     href: string;
@@ -40,7 +40,7 @@ export default function Landing({href, applicationsOpen}: LandingProps) {
                 </Fade>
                     <div className="landing-col2">
                         {/* <LightBulb /> */}
-                        <Timer targetDate={targetDate} until={"Event Begins"}/>
+                        <Timer targetDate={targetDate} until={"Submission Deadline"}/>
                         {applicationsOpen && (
                         <>
                         <a href="http://eepurl.com/ij_qOn" className="apply-button apps-closed">Join Mailing List</a>
