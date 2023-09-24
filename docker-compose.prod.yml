@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: hc-2023-spyder-prod
+    image: hc-2023-spyder-prod
+    build:
+      context: .
+      dockerfile: Dockerfile
