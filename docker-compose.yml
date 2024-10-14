@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  hc-2023-spyder:
+    image: hackcambridge/hc-2023-spyder:v1.0.0
+    container_name: hc-2023-spyder
+    ports:
+      - 80:80
